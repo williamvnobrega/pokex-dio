@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;600;700&family=Sigmar&display=swap');
+
+*{
+    font-family: 'Archivo', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f8;
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    padding: 1rem;
+}
+.container h1{
+    text-transform: uppercase;
+    
+    
+    
+}
+@media screen and (min-width:992px){
+    .container{
+        max-width: 992px;
+        height:auto;
+        margin:1rem auto;
+        border-radius: 1rem;
+    }
+}
+
